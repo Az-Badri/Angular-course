@@ -11,6 +11,8 @@ export class AppComponent {
   boolVar: boolean = false;
   greeting: string = '';
 
+  public twoWayBind = '';
+
   onClick(event : Event){
     this.greeting = event.type;
     console.log(event);

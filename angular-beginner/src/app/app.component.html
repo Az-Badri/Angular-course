@@ -9,5 +9,8 @@
 
     <input #myInput type="text">
     <button (click)="referenceMethod(myInput.value)">click</button>
+
+    <input type="text" [(ngModel)]="twoWayBind">
+    {{twoWayBind}}
   </body>
 </html>
