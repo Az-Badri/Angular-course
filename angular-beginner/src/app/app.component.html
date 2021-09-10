@@ -1,0 +1,13 @@
+<html>
+  <head></head>
+  <body>
+    <p [style.color]="boolVar? 'red' : 'blue' ">TEstin</p>
+    <input [id]="myId" TYPE="text" value='PISUN'>
+    <input [disabled]="boolVar" id="{{myId}}" type="text" value='PISUN'>
+    <button (click)="onClick($event)">HOBA</button>
+    {{greeting}}
+
+    <input #myInput type="text">
+    <button (click)="referenceMethod(myInput.value)">click</button>
+  </body>
+</html>
